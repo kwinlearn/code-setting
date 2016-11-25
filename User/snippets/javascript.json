@@ -1,0 +1,99 @@
+{
+	/*
+	 // Place your snippets for JavaScript here. Each snippet is defined under a snippet name and has a prefix, body and 
+	 // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	 // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
+	 // Example:
+	 "Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+*/
+	//添加创建者
+	"Add Created": {
+		"prefix": "created",
+		"body": [
+			"/**\n * Created by xyx on $1\n */",
+			"'use strict';",
+			"",
+			"$2"
+		],
+		"description": "Add Created to document"
+	},
+	"Add console.log": {
+		"prefix": "log",
+		"body": [
+			"console.log($1);$2",
+		],
+		"description": "Add log to document"
+	},
+	//client
+	"Add document.getElementById": {
+		"prefix": "dgi",
+		"body": [
+			"document.getElementById('$1');",
+			"$2"
+		],
+		"description": "Add document.getElementById to document"
+	},
+	"Add document.getElementsByTagName": {
+		"prefix": "dgn",
+		"body": [
+			"document.getElementsByTagName('$1');",
+			"$2"
+		],
+		"description": "Add document.getElementsByTagName to document"
+	},
+	"Add document.getElementsByClassName": {
+		"prefix": "dgc",
+		"body": [
+			"document.getElementsByClassName('$1');",
+			"$2"
+		],
+		"description": "Add document.getElementsByClassName to document"
+	},
+	//node
+	"Add require mongoose-models": {
+		"prefix": "rmm",
+		"body": [
+			"const models = require('mongoose-models');",
+			"$2"
+		],
+		"description": "Add require mongoose-models to document"
+	},
+	"Add require lodash": {
+		"prefix": "rlod",
+		"body": [
+			"const _ = require('lodash');",
+			"$2"
+		],
+		"description": "Add require lodash to document"
+	},
+	"Add require model": {
+		"prefix": "rm",
+		"body": [
+			"const $1 = require('$2');",
+			"$3"
+		]
+	},
+	"Add callback(es6) to document": {
+		"prefix": "fun",
+		"body": [
+			"($1) => {",
+			"	$2",
+			"}"
+		]
+	},
+	"Add Controll fun to document": {
+		"prefix": "ctrl",
+		"body": [
+			"exports.$1 = (req, res, next) => {",
+			"	$2",
+			"}"
+		]
+	}
+}

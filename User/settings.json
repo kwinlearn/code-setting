@@ -1,0 +1,12 @@
+{
+    "files.autoSave": "afterDelay",
+    "window.zoomLevel": 0,
+    // 光标动画样式
+    "editor.cursorBlinking": "expand",
+    // 缩进参考线
+    "editor.renderIndentGuides": true,
+    // 打开上次会话的所有文件夹
+    "window.reopenFolders": "all",
+    "workbench.sideBar.location": "right",
+    "markdown.styles": ["./my-md.css"]
+}
