@@ -17,10 +17,13 @@
 	"Add Created": {
 		"prefix": "created",
 		"body": [
-			"/**\n * Created by xyx on $1\n */",
+			"/**",
+			" *@author xyx <kwin.xu@semioe.com> date: $1",
+			" *@description $2",
+			" */",
 			"'use strict';",
 			"",
-			"$2"
+			"$3"
 		],
 		"description": "Add Created to document"
 	},
