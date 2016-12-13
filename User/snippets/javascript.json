@@ -18,7 +18,8 @@
 		"prefix": "created",
 		"body": [
 			"/**",
-			" *@author xyx <kwin.xu@semioe.com> date: $1",
+			" *@author xyx <kwin.xu@semioe.com>",
+			" *        date: $1",
 			" *@description $2",
 			" */",
 			"'use strict';",
@@ -30,7 +31,7 @@
 	"Add console.log": {
 		"prefix": "log",
 		"body": [
-			"console.log($1);$2",
+			"console.log($1);$2"
 		],
 		"description": "Add log to document"
 	},
