@@ -22,8 +22,9 @@
 			" *        date: $1",
 			" *@description $2",
 			" */",
+			"/* jshint ignore:start */",
 			"'use strict';",
-			"",
+			"/* jshint ignore:end   */",
 			"$3"
 		],
 		"description": "Add Created to document"
